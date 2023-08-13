@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles form submission 1`] = `
+<DocumentFragment>
+  <div
+    class="container mx-auto"
+  >
+    <div
+      style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+    />
+    <div
+      class="flex justify-center items-center h-screen"
+    >
+      <div
+        class="glass"
+        style="width: 45%; height: 100%;"
+      >
+        <div
+          class="title flex flex-col items-center"
+        >
+          <h4
+            class="text-5xl font-bold"
+          >
+            Register
+          </h4>
+          <span
+            class="py-4 text-xl w-2/3 text-center text-gray-500"
+          >
+            Happy to join you!
+          </span>
+        </div>
+        <form
+          class="py-8"
+        >
+          <div
+            class="profile flex justify-center py-1"
+          >
+            <label
+              for="profile"
+            >
+              <img
+                alt="avatar"
+                class="profile_img"
+                src="profile.png"
+              />
+            </label>
+            <input
+              id="profile"
+              name="profile"
+              type="file"
+            />
+          </div>
+          <div
+            class="textbox flex flex-col items-center gap-2"
+          >
+            <input
+              class="textbox"
+              placeholder="Email*"
+              type="text"
+            />
+            <input
+              class="textbox"
+              placeholder="username*"
+              type="text"
+            />
+            <input
+              class="textbox"
+              placeholder="password*"
+              type="password"
+            />
+            <input
+              class="textbox"
+              placeholder="Confirm Password*"
+              type="password"
+              value=""
+            />
+            <select
+              class="textbox"
+              name="position"
+              required=""
+            >
+              <option
+                value=""
+              >
+                Select Privileges*
+              </option>
+              <option
+                value="Read"
+              >
+                Read
+              </option>
+              <option
+                value="Read and Write"
+              >
+                Read and Write
+              </option>
+              <option
+                value="Full Control"
+              >
+                Full Control
+              </option>
+            </select>
+            <input
+              class="textbox"
+              placeholder="Company*"
+              type="text"
+            />
+            <input
+              class="textbox"
+              placeholder="EMPID"
+              type="text"
+            />
+            <button
+              class="btn"
+              type="submit"
+            >
+              Register
+            </button>
+          </div>
+          <div
+            class="text-center py-4"
+          >
+            <span
+              class="text-gray-500"
+            >
+              Already Register? 
+              <a
+                class="text-red-500"
+                href="/"
+              >
+                Login Now
+              </a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders Login component 1`] = `
+<DocumentFragment>
+  <div
+    class="container mx-auto"
+  >
+    <div
+      style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+    />
+    <div
+      class="flex justify-center items-center h-screen"
+    >
+      <div
+        class="glass"
+        style="width: 45%; height: 90%;"
+      >
+        <div
+          class="title flex flex-col items-center"
+        >
+          <h4
+            class="text-5xl font-bold"
+          >
+            Hello
+          </h4>
+          <span
+            class="py-4 text-xl w-2/3 text-center text-gray-500"
+          >
+            Explore More by connecting with us.
+          </span>
+        </div>
+        <form
+          class="py-1"
+        >
+          <div
+            class="profile flex justify-center py-4"
+          >
+            <img
+              alt="avatar"
+              class="profile_img"
+              src="profile.png"
+            />
+          </div>
+          <div
+            class="textbox flex flex-col items-center gap-6"
+          >
+            <input
+              class="textbox"
+              placeholder="Username"
+              type="text"
+            />
+            <input
+              class="textbox"
+              placeholder="Password"
+              type="text"
+            />
+            <button
+              class="btn"
+              type="submit"
+            >
+              Sign In
+            </button>
+          </div>
+          <div
+            class="text-center py-4"
+          >
+            <span
+              class="text-gray-500"
+            >
+              Forgot Password? 
+              <a
+                class="text-red-500"
+                href="/"
+              >
+                Recover Now
+              </a>
+            </span>
+          </div>
+          <div
+            class="text-center py-4"
+          >
+            <span
+              class="text-gray-500"
+            >
+              Not a Member 
+              <a
+                class="text-red-500"
+                href="/register"
+              >
+                Register Now
+              </a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

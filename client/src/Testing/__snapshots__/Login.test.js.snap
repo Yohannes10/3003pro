@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Login component 1`] = `
+<DocumentFragment>
+  <div
+    class="container mx-auto"
+  >
+    <div
+      style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+    />
+    <div
+      class="flex justify-center items-center h-screen"
+    >
+      <div
+        class="glass"
+        style="width: 45%; height: 90%;"
+      >
+        <div
+          class="title flex flex-col items-center"
+        >
+          <h4
+            class="text-5xl font-bold"
+          >
+            Hello
+          </h4>
+          <span
+            class="py-4 text-xl w-2/3 text-center text-gray-500"
+          >
+            Explore More by connecting with us.
+          </span>
+        </div>
+        <form
+          class="py-1"
+        >
+          <div
+            class="profile flex justify-center py-4"
+          >
+            <img
+              alt="avatar"
+              class="profile_img"
+              src="profile.png"
+            />
+          </div>
+          <div
+            class="textbox flex flex-col items-center gap-6"
+          >
+            <input
+              class="textbox"
+              placeholder="Username"
+              type="text"
+            />
+            <input
+              class="textbox"
+              placeholder="Password"
+              type="text"
+            />
+            <button
+              class="btn"
+              type="submit"
+            >
+              Sign In
+            </button>
+          </div>
+          <div
+            class="text-center py-4"
+          >
+            <span
+              class="text-gray-500"
+            >
+              Forgot Password? 
+              <a
+                class="text-red-500"
+                href="/"
+              >
+                Recover Now
+              </a>
+            </span>
+          </div>
+          <div
+            class="text-center py-4"
+          >
+            <span
+              class="text-gray-500"
+            >
+              Not a Member 
+              <a
+                class="text-red-500"
+                href="/register"
+              >
+                Register Now
+              </a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,15 @@
+/* ParentComponent.css */
+.task-list-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .task-list-inner-container {
+    max-width: 950px;
+    display: flex;
+    justify-content: flex-end; /* Push the cards to the right */
+  }
+  
+
+
